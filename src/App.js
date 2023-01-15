@@ -1,9 +1,7 @@
 import './App.css';
 import Header from './Header';
-
 import { DataProvider } from './DataContext';
-import DataContext from './DataContext';
-import BlogContext, { BlogProvider } from './blog/BlogContext';
+import { BlogProvider } from './blog/BlogContext';
 import { Route,Routes } from 'react-router-dom';
 // import Navbar from './Navbar';
 import PostPage from './PostPage';

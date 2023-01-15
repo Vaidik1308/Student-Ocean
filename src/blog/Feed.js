@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link,useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // import { useParams } from 'react-router-dom';
 
 
 const Feed = ({blog}) => {
-    const {id} = useParams();
+    // const {id} = useParams();
   return (
     <article className='blog'>
         <Link to={`/blog/${blog.id}`}>

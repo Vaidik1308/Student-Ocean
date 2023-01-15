@@ -26,7 +26,6 @@ const Header = () => {
             <button><FaBell/></button>
             </div> */}
             <div className='profile'>
-                <img src="" alt="" />
                 <p>Vaidik</p>
             </div>
         </div>

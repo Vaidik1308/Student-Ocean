@@ -1,5 +1,5 @@
 import React from 'react';
-import {BiHomeAlt,BiCalendarEvent} from 'react-icons/bi';
+import {BiHomeAlt} from 'react-icons/bi';
 import {FaStickyNote} from 'react-icons/fa';
 import {BsPersonCircle} from 'react-icons/bs'
 import { Link } from 'react-router-dom';
