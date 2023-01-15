@@ -1,6 +1,7 @@
 import React from 'react';
 import {BiHomeAlt,BiCalendarEvent} from 'react-icons/bi';
 import {FaStickyNote} from 'react-icons/fa';
+import {BsPersonCircle} from 'react-icons/bs'
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -8,7 +9,7 @@ const Navbar = () => {
     <div className='Navbar'>
         <Link to='/'><button><BiHomeAlt/></button></Link>
         <Link to='/blog'><button><FaStickyNote/></button></Link>
-        <button><BiCalendarEvent/></button>
+        <button><BsPersonCircle/></button>
     </div>
   )
 }
