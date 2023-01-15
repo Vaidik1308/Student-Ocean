@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.blogHome{
+    display: flex;
+    width: 98%;
+    height: 89vh;
+    justify-content: space-between;
+}
+.blog-body{
+    width: 95%;
+    display: flex;
+    height: 86vh;
+    background: white;
+    border: none;
+    border-radius: 16px;
+}
+
+/* BloghHome */
+.blog-body{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    background: white;
+    border: none;
+    border-radius: 16px;
+}
+.blog-title{
+    text-align: left;
+    margin-left: 12px;
+    font-size: 1.5rem;
+}
+.blog-date{
+    width: 28%;
+    text-align: right;
+    font-size: 1.8rem;
+}
+.blog-search{
+    width: 46%;
+}
+.blog-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-hover{
+    width: 40%;
+    text-align: center;
+}
+.blog-hover ul{
+    display: flex;
+    list-style: none;
+    
+}
+.blog-hover ul a{
+    width: 34%;
+}
+.blog-hover ul li{
+    font-size: 1.5rem;
+    height: 7vh;
+    width: 83%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+
+}
+.blog-hover ul li:hover{
+    background-color: black;
+    color: white
+}
+
+.blog-grid{
+    background-color: #ffffff;
+    width: 98%;
+    height: 63vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 16px;
+    grid-column-gap: 0px;
+    grid-row-gap: 25px;
+    border: none;
+}
+
+.blog{
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+    height: 29vh;
+    justify-content: space-evenly;
+    background-color: #D7E9B9;
+    border-radius: 11px;
+    
+
+}
+.blog h2{
+    width: 97%;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.blog a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 8vh;
+}
+.blog-title{}
+.postDate{
+    width: 100%;
+    height: 9vh;
+}
+.postBody{
+    font-size: 1.2rem;
+}
+.moreBlogs{
+    bottom: 69px;
+    left: 1348px;
+    position: absolute !important;
+}
+
+
+/* Blog Page */
+
+.BlogPage{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 95%;
+    height: 86vh;
+    border-radius: 15px;
+}
+.blogpost{
+    width: 87%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+.blogpost h2{
+    font-size: 2.6rem;
+}
+.blogDate{
+    font-size: 1.2rem;
+    margin: 13ox 0;
+}
+.blogBody{
+    height: 48vh;
+    font-size: 1.3rem;
+}
+.deleteButton{
+    width: 16%;
+    height: 5vh;
+    font-size: 1.2rem;
+}
+.blogpost a{
+    width: 31%;
+
+}
+.editButton{
+    width: 51%;
+    height: 5vh;
+    margin-top: 8px;
+    font-size: 1.2rem;
+}
+button{
+    border: none;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Add Blog */
+
+.NewBlog{
+    background: white;
+    width: 95%;
+    height: 86vh;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+}
+.NewBlog h2{
+    width: 24%;
+    text-align: center;
+    font-size: 3.2rem;
+    margin: 11px 0;
+}
+.newBlogForm{
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+    margin: 12px auto;
+    height: 66vh;
+    justify-content: space-around;
+}
+.newBlogForm label{
+    font-size: 2rem;
+}
+.newBlogForm input{
+    width: 53%;
+    height: 8vh;
+    font-size: 1.2rem;
+    border: none;
+    background-color: ghostwhite;
+    border-radius: 11px;
+    padding: 8px 13px;
+    outline: none;
+}
+.newBlogForm textarea{
+    width: 88%;
+    height: 22vh;
+    font-size: 1.2rem;
+    border: none;
+    background-color: ghostwhite;
+    border-radius: 11px;
+    padding: 8px 17px;
+    outline: none;
+}
+.newBlogForm button{
+    width: 17%;
+    height: 9vh;
+    font-size: 1.6rem;
+    font-weight: 600;
+}

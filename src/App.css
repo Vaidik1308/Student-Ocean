@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.App{
+    background-color: #EEF1FF;
+    width: 95%;
+    height: 97vh;
+    margin: auto;
+    border-radius: 18px;
+}
+
+.header-container{
+    margin: 7px 16px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    width: 44%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-bar button{ 
+    font-size: 1.5rem;
+    padding: 7px 3px;
+    width: 100%;
+    text-align: center;
+    height: 6vh;
+    background: #EEF1FF;
+    border: none;
+}
+.header-heading{
+    width: 92%;
+    height: 6vh;
+    padding: 2px 3px;
+    text-align: left;
+    font-size: 0.8rem;
+    margin-left: 7px;
+}
+.search-bar{
+    margin-top: 4px;
+    width: 72%;
+    height: 6vh;
+    display: flex;
+
+}
+.search-bar .input{
+    width: 100%;
+    border: 1px white;
+    border-radius: 18px;
+    padding: 3px 9px;
+    outline: none;
+    height: 6vh;
+    font-size: 1.2rem;
+    text-align: left;
+    box-shadow: 10px 9px 29px -7px;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+}
+.theme-change button{
+    font-size: 1.5rem;
+    padding: 3px 4px;
+    width: 100%;
+    text-align: center;
+    height: 6vh;
+    background: #EEF1FF;
+    border: none;
+    margin-top: 6px;
+}
+.add-more button{
+    font-size: 1.5rem;
+    padding: 7px 3px;
+    width: 100%;
+    text-align: center;
+    height: 6vh;
+    background: #EEF1FF;
+    border: none;
+}
+.notification-icon button{
+    font-size: 1.5rem;
+    padding: 7px 3px;
+    width: 100%;
+    text-align: center;
+    height: 6vh;
+    background: #EEF1FF;
+    border: none;
+}
+.profile{
+    display: flex;
+    font-size: 1.5rem;
+    width: 38%;
+    height: 6vh;
+    text-align: center;
+    margin: 4px 0px;
+}
+.profile img{
+
+}
+
+.home{
+    Display: flex;
+    width: 100%;
+}
+
+/* MAIN SECTION */
+.Main{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: auto;
+}
+
+/* navbar */
+.Navbar{
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    width: 4%;
+    justify-content: space-evenly;
+}
+.Navbar button{
+    background-color: #EEF1FF;
+    border: none;
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 50%;
+    height: 8vh;
+    width: 95%;
+    margin: 1px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar button svg{
+}
+
+/* Dashboard */
+.Dash-board{
+    background-color: white;
+    width: 62%;
+    height: 85vh;
+    border-radius: 25px;
+}
+.dash-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 0;
+    width: 95%;
+    height: 18vh;
+    margin: 12px auto;
+}
+.dash-top{
+    Display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.dash-title{
+    width: 28%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3px;
+}
+.dash-date{
+    width: 22%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 5px;
+    height: 5vh;
+}
+.project-grid{
+    background-color: #ffffff;
+    width: 98%;
+    height: 63vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 16px;
+}
+.para{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 270%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+}
+.addMore{
+    bottom: 69px;
+    right: -749px;
+    background: #343447 !important;
+}
+
+.addMore  svg{
+    font-size: 2rem;
+    background: inherit;
+}
+
+
+/* Projects */
+.Project{
+    width: 84%;
+    height: 36vh;
+    background-color: #F3CCFF;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.dash-task{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 7px 4px;
+    height: 6vh;
+    width: 90%;
+    align-items: center;
+}
+.dash-task h3{
+    font-size: 1.1rem;
+    color: gray;
+    font-weight: 100;
+    margin-top: 25px;
+}
+.dash-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.task-title{
+    width: 100%;
+    text-align: center;
+}
+.task-body{
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+    color: gray;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 83%;
+    margin: 6px auto;
+    height: 6vh;
+}
+.edit-btn{
+    width: 210%;
+    height: 6vh;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    background: #a390bb;
+    color: white;
+}
+.edit-btn:hover{
+    color: white;
+    background-color: #7F669D;
+}
+.btns a{
+
+}
+.btns .del-btn{
+    width: 36%;
+    height: 6vh;
+    border: none;
+    font-size: 1rem;
+    background: #a390bb;
+    color: white;
+    border-radius: 9px;
+}
+.del-btn:hover{
+    color: white;
+    background-color: #7F669D;
+}
+
+/* Chat-bot */
+
+.chat-bot{
+    width: 36%;
+    background: white;
+    margin-right: 15px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/* ADDPOST */
+.addPost{
+    position: absolute;
+    background-color: #bbfcd4;
+    transform: translate(342px, 76px);
+    width: 33%;
+    height: 54vh;
+    border: none;
+    border-radius: 13px;
+}
+.addPost-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    height: 8vh;
+    margin: 9px auto;
+    border-bottom: black 1px;
+}
+.addPost-heading h2{
+    width: 100%;
+    text-align: center;
+}
+.addPost-heading svg{
+    width: 6%;
+    font-size: 2rem;
+    height: 5vh;
+    color: #6f6b6b;
+}
+.addPost-body{
+    display: flex;
+    flex-direction: column;
+    height: 43vh;
+    align-items: center;
+    width: 88%;
+    margin: auto;
+}
+.addPost-body label{
+    /* display: none; */
+}
+.addPost-body form{
+    height: 41vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.addPost-body form input{
+    width: 81%;
+    height: 7vh;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-radius: 13px;
+    padding: 3px 12px;
+}
+.addPost-body form textarea{
+    width: 81%;
+    height: 21vh;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-radius: 13px;
+    padding: 3px 12px;
+}
+.addPost-body button{
+    width: 82%;
+    height: 7vh;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 11px;
+    margin-bottom: 10px;
+    background: bottom;
+}
