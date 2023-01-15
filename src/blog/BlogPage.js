@@ -22,7 +22,7 @@ const BlogPage = () => {
               <p className='blogDate'>{`${blog.dateTime}`}</p>
               <p className='blogBody'>{blog.body}</p>
               <button onClick={() => handleDelete(blog.id) } className='deleteButton'>Delete Post</button>
-              <Link to={`/editblog/${blog.id}`}><button className='editButton'>Edit Post</button></Link>
+              <Link to={`/edit/${blog.id}`}><button className='editButton'>Edit Post</button></Link>
             </>
           }
 

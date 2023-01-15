@@ -1,3 +1,40 @@
 {
-  "posts": []
+  "blogs": [
+    {
+      "id": 1,
+      "title": "blog",
+      "dateTime": "January 15, 2023 7:49:26 PM",
+      "body": "nbnb"
+    },
+    {
+      "id": 2,
+      "title": "blog",
+      "dateTime": "January 15, 2023 7:49:26 PM",
+      "body": "nbnb"
+    },
+    {
+      "id": 4,
+      "title": "blog",
+      "dateTime": "January 15, 2023 7:49:26 PM",
+      "body": "nbnb"
+    },
+    {
+      "id": 5,
+      "title": "blog",
+      "dateTime": "January 15, 2023 7:49:26 PM",
+      "body": "nbnb"
+    },
+    {
+      "id": "[object Object]1",
+      "title": "efsfs",
+      "dateTime": "January 15, 2023 11:36:20 PM",
+      "body": "egg"
+    },
+    {
+      "id": 6,
+      "title": "dvkdnkldnvd",
+      "dateTime": "January 15, 2023 11:38:12 PM",
+      "body": "dglkdgdhgldkhgldhgldh"
+    }
+  ]
 }

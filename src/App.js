@@ -3,9 +3,7 @@ import Header from './Header';
 import { DataProvider } from './DataContext';
 import { BlogProvider } from './blog/BlogContext';
 import { Route,Routes } from 'react-router-dom';
-// import Navbar from './Navbar';
 import PostPage from './PostPage';
-// import AddPost from './AddPost';
 import Home from './Home';
 import Missing from './Missing';
 import Edit from './Edit';
@@ -23,8 +21,6 @@ function App() {
       <BlogProvider>
         <DataProvider>
           <Header/>
-          {/* <Navbar/> */}
-
           <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/post/:id' element={<PostPage/>} />

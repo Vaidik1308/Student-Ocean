@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChatBot = () => {
   return (
-    <div className='chat-bot'>ChatBot</div>
+    <div className='chat-bot'> </div>
   )
 }
 

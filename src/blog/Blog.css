@@ -236,3 +236,252 @@ a{
     font-size: 1.6rem;
     font-weight: 600;
 }
+
+
+@media (max-width:412px) {
+    .blogHome{
+        display: flex;
+        width: 96%;
+        height: 89vh;
+        justify-content: space-between;
+    }
+    .blog-body{
+        width: 85%;
+        display: flex;
+        height: 86vh;
+        background: white;
+        border: none;
+        border-radius: 16px;
+    }
+    
+    /* BloghHome */
+    .blog-body{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        height: 86vh;
+        background: white;
+        border: none;
+        border-radius: 16px;
+    }
+    .blog-title{
+        text-align: center;
+        margin-left: 12px;
+        font-size: 1.6rem;
+    }
+    .blog-date{
+        width: 50%;
+        text-align: right;
+        font-size: 1.3rem;
+    }
+    .blog-search{
+        width: 100%;
+    }
+    .blog-links{
+        flex-direction: column;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .blog-hover{
+        width: 40%;
+        text-align: center;
+    }
+    .blog-hover ul{
+        display: flex;
+        list-style: none;
+        
+    }
+    .blog-hover ul a{
+        width: 100%;
+    }
+    .blog-hover ul li{
+        font-size: 1.2rem;
+        height: 7vh;
+        margin: 10px 10px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 16px;
+    
+    }
+    .blog-hover ul li:hover{
+        background-color: black;
+        color: white
+    }
+    
+    .blog-grid{
+        background-color: #ffffff;
+        width: 90%;
+        height: 63vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        padding: 8px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 16px;
+        grid-column-gap: 0px;
+        grid-row-gap: 25px;
+        border: none;
+        margin-top: 50px;
+    }
+    
+    .blog{
+        width: 91%;
+        display: flex;
+        flex-direction: column;
+        height: 29vh;
+        justify-content: space-evenly;
+        background-color: #D7E9B9;
+        border-radius: 11px;
+        
+    
+    }
+    .blog h2{
+        width: 97%;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .blog a{
+        text-decoration: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 8vh;
+    }
+    .blog-title{
+        text-align: center;
+    }
+    .postDate{
+        width: 100%;
+        height: 9vh;
+        font-size: 0.8rem;
+    }
+    .postBody{
+        font-size: 1.2rem;
+    }
+    .moreBlogs{
+        bottom: 10px;
+        left: 280px;
+        position: absolute !important;
+    }
+    
+    
+    /* Blog Page */
+    
+    .BlogPage{
+        display: flex;
+        flex-direction: column;
+        background: white;
+        width: 95%;
+        height: 86vh;
+        border-radius: 15px;
+    }
+    .blogpost{
+        width: 87%;
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .blogpost h2{
+        font-size: 2rem;
+    }
+    .blogDate{
+        font-size: 1rem;
+        margin: 13ox 0;
+    }
+    .blogBody{
+        margin: 10px;
+        height: 48vh;
+        font-size: 1.3rem;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: rgb(236, 212, 183);
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .deleteButton{
+        width: 90%;
+        height: 5vh;
+        font-size: 1.2rem;
+    }
+    .blogpost a{
+        width: 100%;
+    
+    }
+    .editButton{
+        width: 90%;
+        height: 5vh;
+        margin-top: 8px;
+        font-size: 1.2rem;
+    }
+    button{
+        margin: 12px;
+        border: none;
+        border-radius: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    /* Add Blog */
+    
+    .NewBlog{
+        background: white;
+        width: 95%;
+        height: 86vh;
+        border-radius: 13px;
+        display: flex;
+        flex-direction: column;
+    }
+    .NewBlog h2{
+        width: 94%;
+        text-align: center;
+        font-size: 2.5rem;
+        margin: 11px 0;
+    }
+    .newBlogForm{
+        display: flex;
+        flex-direction: column;
+        width: 83%;
+        margin: 12px auto;
+        height: 66vh;
+        justify-content: space-around;
+    }
+    .newBlogForm label{
+        font-size: 1.3rem;
+    }
+    .newBlogForm input{
+        width: 95%;
+        height: 8vh;
+        font-size: 1.2rem;
+        border: none;
+        background-color: ghostwhite;
+        border-radius: 11px;
+        padding: 8px 13px;
+        outline: none;
+    }
+    .newBlogForm textarea{
+        width: 95%;
+        height: 22vh;
+        font-size: 1.2rem;
+        border: none;
+        background-color: ghostwhite;
+        border-radius: 11px;
+        padding: 8px 17px;
+        outline: none;
+    }
+    .newBlogForm button{
+        width: 95%;
+        height: 9vh;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    
+}

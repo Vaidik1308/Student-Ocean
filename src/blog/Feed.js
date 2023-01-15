@@ -12,7 +12,7 @@ const Feed = ({blog}) => {
             <p className='postDate'>{blog.dateTime}</p>
         </Link>
         <p className='postBody'>
-            {(blog.body).length <= 25 ? blog.body : `${(blog.body).slice(0,25)}...`}
+            {(blog.body).length <= 25 ? blog.body : `${(JSON.stringify(JSON.stringify(blog.body))).slice(0,25)}...`}
             <Link className='morePara' to={`/blog/${blog.id}`}>More</Link>
         </p>
     </article>

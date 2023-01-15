@@ -58,7 +58,7 @@ const BlogHome = () => {
                     blogs.map((blog) => (
                     <Feed blog={blog} key={blog.id}/>
                     )) : 
-                    <p className='para' style={{textAlign:"center", fontSize: "1.5rem"}}>No Blog To Display</p>
+                    <p className='para' style={{textAlign:"center",width:'95%', fontSize: "1.5rem"}}>No Blog To Display</p>
                 }
                 <Link to={`/addblog`}>
                     <Fab className='addMore moreBlogs' color="primary" aria-label="add">
